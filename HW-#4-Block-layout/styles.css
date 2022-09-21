@@ -1,0 +1,146 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+.header {
+	background-color: #ED4C5C;
+	box-sizing: border-box;
+}
+.header-container {
+	width: 80%;
+	margin: auto;
+	padding: 95px 0px;
+}
+.header-container-text {
+	display: inline-block;
+	width: 445px;
+	color: #ffffff;
+	margin-right: 110px;
+}
+.main-header,
+.contact-header {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 43px;
+	margin-bottom: 24px;
+}
+.header-text,
+.contact-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+}
+.header-img1,
+.header-img2,
+.header-img3 {
+	margin: 40px 23px 0px 0px;
+}
+.slider {
+	display: inline-block;
+}
+.contact {
+	background-color: #ffffff;
+}
+.contact-container {
+	width: 80%;
+	margin: auto;
+	padding: 117px 165px;
+}
+.contact-inform {
+	width: 445px;
+	color: #000000;
+	margin-right: 90px;
+	display: inline-block;
+	position: static;
+	vertical-align: top;
+}
+.contact-forms {
+	display: inline-block;
+	width: 540px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.name {
+	margin-bottom: 24px;
+}
+.first-name,
+.last-name,
+.phone,
+.service-button {
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #000000;
+	border-radius: 6px;
+}
+.first-name {
+	padding: 20px 50px 20px 30px;
+	margin-right: 30px;
+}
+.last-name {
+	padding: 20px 50px 20px 30px;
+}
+.phone {
+	padding: 20px 330px 20px 30px;
+	margin-bottom: 24px;
+}
+.service-button {
+	padding: 20px 355px 20px 20px;
+	color: #757575;
+	margin-bottom: 24px;
+}
+.button {
+	background-color: #ED4C5C;
+	padding: 16px 34px;
+	border: none;
+	border-radius: 6px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.empty {
+	width: 100%;
+	height: 45px;
+	background-color: #ffffff;
+}
+.footer {
+	background-color: #FAFAFA;
+}
+.footer-container {
+	width: 80%;
+	padding: 85px 160px;
+	margin: auto;
+}
+.footer-h4 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 33px;
+}
+.footer-inform,
+.services-list,
+.copywriting {
+	font-size: 12px;
+	font-weight: 400;
+}
+.address {
+	display: inline-block;
+	width: 259px;
+	margin-left: 30px;
+	vertical-align: top;
+}
+.copywriting {
+	margin-top: 141px;
+}
+.services,
+.contacts,
+.payment {
+	display: inline-block;
+	width: 254px;
+	margin-left: 30px;
+	vertical-align: top;
+}
+.footer-inform {
+	margin-bottom: 11px;
+}
+.social-icons {
+	margin-top: 20px;
+}
