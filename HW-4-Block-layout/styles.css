@@ -39,8 +39,12 @@ body {
 }
 .contact {
 	background-color: #ffffff;
+	display: flex;
 }
 .contact-container {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
 	width: 80%;
 	margin: auto;
 	padding: 117px 165px;
@@ -49,18 +53,19 @@ body {
 	width: 445px;
 	color: #000000;
 	margin-right: 90px;
-	display: inline-block;
-	position: static;
+	display: flex;
+	flex-direction: column;
 	vertical-align: top;
 }
 .contact-forms {
-	display: inline-block;
-	width: 540px;
+	display: flex;
+	width: 560px;
 	font-size: 16px;
 	font-weight: 400;
 }
 .name {
 	margin-bottom: 24px;
+	display: flex;
 }
 .first-name,
 .last-name,
@@ -72,14 +77,14 @@ body {
 	border-radius: 6px;
 }
 .first-name {
-	padding: 20px 50px 20px 30px;
-	margin-right: 30px;
+	padding: 20px 40px 20px 30px;
+	margin-right: 10px;
 }
 .last-name {
-	padding: 20px 50px 20px 30px;
+	padding: 20px 40px 20px 30px;
 }
 .phone {
-	padding: 20px 330px 20px 30px;
+	padding: 20px 300px 20px 30px;
 	margin-bottom: 24px;
 }
 .service-button {
