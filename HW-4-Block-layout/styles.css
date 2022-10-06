@@ -59,13 +59,17 @@ body {
 }
 .contact-forms {
 	display: flex;
-	width: 560px;
+	justify-content: center;
+	width: 50%;
 	font-size: 16px;
 	font-weight: 400;
+	gap: 10px;
 }
 .name {
 	margin-bottom: 24px;
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 .first-name,
 .last-name,
@@ -77,20 +81,32 @@ body {
 	border-radius: 6px;
 }
 .first-name {
-	padding: 20px 40px 20px 30px;
-	margin-right: 10px;
+	box-sizing: border-box;
+	width: 48%;
+	padding: 20px 30px;
 }
 .last-name {
-	padding: 20px 40px 20px 30px;
+	box-sizing: border-box;
+	width: 48%;
+	padding: 20px 30px;
 }
 .phone {
-	padding: 20px 300px 20px 30px;
+	box-sizing: border-box;
+	padding: 20px 0px 20px 30px;
 	margin-bottom: 24px;
+	width: 100%
 }
 .service-button {
-	padding: 20px 355px 20px 20px;
+	display: flex;
+	width: 100%;
+	height: 60px;
 	color: #757575;
 	margin-bottom: 24px;
+	padding-left: 20px;
+}
+.selected {
+	width: 80%;
+	margin: auto;
 }
 .button {
 	background-color: #ED4C5C;
@@ -125,6 +141,7 @@ body {
 .copywriting {
 	font-size: 12px;
 	font-weight: 400;
+	line-height: 19px;
 }
 .address {
 	display: inline-block;
