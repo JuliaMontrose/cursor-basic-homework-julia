@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+	font-family: 'Roboto';
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+.header-navbar {
+	padding: 10px 30px;
+}
+.avatar-container {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+.avatar {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 20px;
+}
+.search {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+.search-form {
+	position: relative;
+	z-index: 0;
+}
+.feather-search {
+	width: 20px;
+	height: 20px;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 1;
+}
+.search-input {
+	text-align: center;
+}
+.navbar-tabs {
+	display: flex;
+	justify-content: flex-end;
+}
+.direct-icon {
+	position: relative;
+}
+.badge {
+	top: 20%;
+	left: 75%;
+}
+
+@media screen and (max-width:768px) {
+	.navbar-tabs {
+		width: 50%;
+	}
+	.navbar-tabs ul {
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 10px;
+	}
+	.logo {
+		width: 50%;
+	}
+}
+
+/* ----------Personal Section --------- */
+.personal-inform {
+	width: 100%;
+	border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+.personal-section {
+	width: 80%;
+	margin: auto;
+}
+.btns {
+	gap: 10px;
+}
+.btn-link {
+	text-decoration: none;
+	color: black;
+}
+.followers-btn {
+	gap: 40px;
+}
+.story {
+	width: 100px;
+	height: 100px;
+}
+.stories {
+	gap: 20px;
+}
+
+/* --------Photo Section ------------- */
+.photo-section {
+	width: 80%;
+	margin: auto;
+}
+.posts-tab {
+	border-top: 1px solid black;
+	text-decoration: none;
+	gap: 5px;
+}
+.posts-text {
+	color: black;
+}
+.tags-tab {
+	text-decoration: none;
+	gap: 5px;
+}
+.tags-text {
+	color: rgba(143, 143, 143, 1);
+}
+.photo-card {
+	object-fit: cover;
+}
