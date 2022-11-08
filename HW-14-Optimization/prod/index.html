@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="preload" href="./css/fonts.css" as="font">
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
@@ -107,7 +108,7 @@
         </h2>
         <div class="reason">
             <div class="square">
-                <img id="bg-reason1" src="img/reason1.png" alt="" class="width60">
+                <img id="bg-reason1" src="img/reason1.png" alt="car-icon" class="width60" style="width: 55px; height: 34px;">
             </div>
             <h4 class="h4">Быстрый и легкий монтаж</h4>
             <div class="reason-text">Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.
@@ -115,7 +116,7 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason1.png" alt="" class="bg-reason2">
+                <img src="img/reason1.png" alt="security" class="bg-reason2" style="width: 55px; height: 60px;">
             </div>
             <h4 class="h4">Стоимость</h4>
             <div class="reason-text">Цена видеопарктроника у дилера от 19990 грн.Наша цена всего 3990 грн.
@@ -123,7 +124,7 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason1.png" alt="" class="bg-reason3">
+                <img src="img/reason1.png" alt="coins" class="bg-reason3" style="width: 60px; height: 54px;">
             </div>
             <h4 class="h4">Экономия</h4>
             <div class="reason-text">В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера
@@ -132,7 +133,7 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason.png" alt="" class="bg-reason4 width60">
+                <img src="img/reason.png" alt="box" class="bg-reason4 width60" style="width: 55px; height: 60px;">
             </div>
             <h4 class="h4">Безопасность для пешеходов</h4>
             <div class="reason-text">при движении задним ходом (угол обзора нашей камеры 170 градусов)
@@ -169,10 +170,10 @@
 <section class="reviews">
     <div class="wrapper">
         <h2 class="h2">отзывы о нашем <span class="yellow">видеопарктронике</span></h2>
-        <img data-src="img/arrow-left.png" alt="" class="arrow-left lazyload">
+        <img src="img/arrow-left.png" alt="" class="arrow-left">
         <div class="review-slider">
             <div class="slide">
-                <img data-src="img/review1.webp" alt="" class="main-review-img lazyload">
+                <img src="img/review1.webp" alt="" class="main-review-img">
                 <p class="review-text">
                     Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них либо
                     дизайн
@@ -188,11 +189,11 @@
                     зеркало
                     любой машины, вообщем то что доктор прописал!
                 </p>
-                <div class="review-author"><img data-src="img/review1-ava.webp" alt="" class="ava lazyload"><b>Константин</b><i>г.
+                <div class="review-author"><img src="img/review1-ava.webp" alt="" class="ava"><b>Константин</b><i>г.
                     Днепропетровск</i></div>
             </div>
         </div>
-        <img data-src="img/arrow-right.png" alt="" class="arrow-right lazyload">
+        <img src="img/arrow-right.png" alt="" class="arrow-right">
     </div>
 </section>
 <section class="delivery">
@@ -206,13 +207,13 @@
         </ul>
         <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
         <div class="advantages">
-            <div class="adv"><img data-src="img/reason.png" alt="" class="bg-adv1 lazyload">
+            <div class="adv"><img src="img/reason.png" alt="" class="bg-adv1">
                 <div class="adv-title yellow">Оплата при получении</div>
             </div>
-            <div class="adv"><img data-src="img/reason.png" alt="" class="bg-adv2 lazyload">
+            <div class="adv"><img src="img/reason.png" alt="" class="bg-adv2">
                 <div class="adv-title yellow">365 дней гарантии</div>
             </div>
-            <div class="adv"><img data-src="img/reason.png" alt="" class="bg-adv3 lazyload">
+            <div class="adv"><img src="img/reason.png" alt="" class="bg-adv3">
                 <div class="adv-title yellow">Возврат денег в течение 14 дней</div>
             </div>
         </div>
@@ -247,9 +248,9 @@
         <h2 class="h2">закажите свой видеопарктроник <span class="yellow">до конца дня</span>
             И <span class="yellow">получите в подарок</span> антибликовое стекло</h2>
         <div class="left-block">
-            <img data-src="img/product-reverse.webp" class="lazyload" alt="">
+            <img src="img/product-reverse.webp" alt="">
             <span class="plus">+</span>
-            <img data-src="img/gift-reverse.webp" class="lazyload" alt="">
+            <img src="img/gift-reverse.webp" alt="">
             <div class="price">
                 <div class="old-price">6999 грн.</div>
                 <div class="new-price">3999 грн.</div>
@@ -270,7 +271,6 @@
 
     </div>
 </footer>
-<script src="./js/lazysizes.min.js" async></script>
 <script defer>
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
