@@ -532,7 +532,23 @@ button {
     font-family: "HelveticaNeueBold";
     font-size: 18px;
 }
-
+.reviews {
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.slide {
+    max-width: 95%;
+    width: 100%;
+    margin: auto;
+}
+.slick-prev {
+    background-image: url(../img/arrow-left.png) !important;
+}
+.review-author img {
+    height: 40px !important;
+    display: inline-block !important;
+}
 .last-screen {
     clear: both;
     text-align: center;
